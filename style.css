@@ -432,24 +432,60 @@ footer {
     background-color: #ffffff;
     transform: scale(1.08);
 }
-.joined {
+/* Premium Joined Page */
+.joined-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top, #1a1a1a 0%, #0a0a0a 100%);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joined-container {
     text-align: center;
-    padding: 150px 20px;
-    background: #0a0a0a;
-    color: white;
+    padding: 60px 40px;
+    border-radius: 20px;
+    background: rgba(20, 20, 20, 0.55);
+    backdrop-filter: blur(12px);
+    border: 1px solid #222;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    width: 80%;
+    max-width: 600px;
 }
 
-.joined h1 {
+.joined-container h1 {
     font-family: 'Playfair Display', serif;
+    font-size: 60px;
     color: #d4af37;
-    font-size: 50px;
     margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-.joined p {
+.joined-container p {
     font-size: 20px;
-    color: #ccc;
+    color: #cccccc;
     margin-bottom: 40px;
+    line-height: 1.7;
 }
 
+.joined-btn {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #000;
+    padding: 14px 38px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
 
+.joined-btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.08);
+}
