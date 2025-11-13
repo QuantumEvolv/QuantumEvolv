@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QuantumEvolv – You're In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="joined">
+        <h1>You're In 🚀</h1>
+        <p>Welcome to QuantumEvolv. You’re now part of the Founding Learners.</p>
+        <a href="index.html" class="btn">Go Back Home</a>
+    </section>
+
+    <script>
+        // Increase local counter
+        let count = localStorage.getItem("joinedCount");
+        count = count ? parseInt(count) + 1 : 1;
+        localStorage.setItem("joinedCount", count);
+    </script>
+
+</body>
+</html>
