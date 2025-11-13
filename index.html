@@ -67,8 +67,19 @@
     <footer>
         <p>© 2025 QuantumEvolv. All rights reserved.</p>
     </footer>
+<script>
+    let count = localStorage.getItem("joinedCount");
+    const counter = document.getElementById("joinedCounter");
+
+    if (!count) {
+        counter.innerHTML = "Be the first to join.";
+    } else {
+        counter.innerHTML = count + " learners have joined (local count)";
+    }
+</script>
 
 </body>
 </html>
+
 
 
