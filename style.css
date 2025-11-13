@@ -432,4 +432,24 @@ footer {
     background-color: #ffffff;
     transform: scale(1.08);
 }
+.joined {
+    text-align: center;
+    padding: 150px 20px;
+    background: #0a0a0a;
+    color: white;
+}
+
+.joined h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.joined p {
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
 
